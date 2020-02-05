@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<title>RMDiocera</title>
 	<link rel="icon" href="img/deslogo.jpg">
 	<link href="style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> -->
 	<script src="https://kit.fontawesome.com/827dc3e5bf.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 	<!-- Project modal -->
-    <div class="modal fade mt-5" id="project_modal">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title"></h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body font-raleway">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators"></ol>
-                                    <div id="preview" class="carousel-inner"></div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <ul class="project-features"></ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer font-raleway">
-                    <a class="btn btn-info site-btn" href="#" target="_blank">
-                        <i class="fas fa-globe-asia"></i> Go to Website
-                    </a>
-                    <a class="btn btn-info git-btn" href="#" target="_blank">
-                        <i class="fab fa-github"></i> View on GitHub
-                    </a>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="modal fade mt-5" id="project_modal">
+		<div class="modal-dialog modal-xl">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title"></h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</button>
+				</div>
+				<div class="modal-body font-raleway">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators"></ol>
+									<div id="preview" class="carousel-inner"></div>
+									<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+										data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+										data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<ul class="project-features"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer font-raleway">
+					<a class="btn btn-info site-btn" href="#" target="_blank">
+						<i class="fas fa-globe-asia"></i> Go to Website
+					</a>
+					<a class="btn btn-info git-btn" href="#" target="_blank">
+						<i class="fab fa-github"></i> View on GitHub
+					</a>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-	<div id	="container">
+	<div id="container">
 		<main id="front-content">
 			<nav class="navbar-port" id="navbar">
 				<ul class="mx-auto">
@@ -74,134 +79,156 @@
 			</nav>
 			<div id="main-section">
 				<div id="welcome"></div>
-					<div id="welcome-background"></div>
+				<div id="welcome-background"></div>
 				<section id="projects">
 					<p id="project-header" class="text-white">My Projects</p>
 					<div class="fcc-projects">
-						<div class="preview preview1">	
-								<div class="project-tile">
-									<img class="img img-fluid" src="img/projects/socmed.JPG">
-									<div class="overlay">
-										<span>
-											<button class="btn btn-info show-btn" value="1" data-toggle="modal" data-target="#project_modal"><i class="fas fa-info-circle"></i> Project Details</button>
-										</span>
-										<span>
-											<a class="btn btn-info git-btn-main text-white" href="https://github.com/rmdiocera/CI_RDSocNet" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-										</span>
-									</div>
-									<div class="caption">
-										<p class="my-2">BookFace: A Social Media Website</p>
-									</div>
+						<div class="preview preview1">
+							<div class="project-tile">
+								<img class="img img-fluid" src="img/projects/socmed.JPG">
+								<div class="overlay">
+									<span>
+										<button class="btn btn-info show-btn" value="1" data-toggle="modal"
+											data-target="#project_modal"><i class="fas fa-info-circle"></i> Project
+											Details</button>
+									</span>
+									<span>
+										<a class="btn btn-info git-btn-main text-white"
+											href="https://github.com/rmdiocera/CI_RDSocNet" target="_blank"><i
+												class="fab fa-github"></i> View on GitHub</a>
+									</span>
+								</div>
+								<div class="caption">
+									<p class="my-2">BookFace: A Social Media Website</p>
 								</div>
 							</div>
+						</div>
 						<div class="preview preview2">
-							<!-- <a href="https://rdinvsys.000webhostapp.com" target="_blank">	 -->
-								<div class="project-tile">
-									<img class="img img-fluid" src="img/projects/rdsysinv.JPG">
-									<div class="overlay">
-										<span>
-											<button class="btn btn-info show-btn" value="2" data-toggle="modal" data-target="#project_modal"><i class="fas fa-info-circle"></i> Project Details</button>
-										</span>
-										<span>
-											<a class="btn btn-info git-btn-main text-white" href="https://github.com/rmdiocera/RD_InvSys" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-										</span>
-									</div>
-									<div class="caption">
-										<p class="my-2">Inventory System</p>
-									</div>
+							<div class="project-tile">
+								<img class="img img-fluid" src="img/projects/rdsysinv.JPG">
+								<div class="overlay">
+									<span>
+										<button class="btn btn-info show-btn" value="2" data-toggle="modal"
+											data-target="#project_modal"><i class="fas fa-info-circle"></i> Project
+											Details</button>
+									</span>
+									<span>
+										<a class="btn btn-info git-btn-main text-white"
+											href="https://github.com/rmdiocera/RD_InvSys" target="_blank"><i
+												class="fab fa-github"></i> View on GitHub</a>
+									</span>
 								</div>
-							</a>
+								<div class="caption">
+									<p class="my-2">Inventory System</p>
+								</div>
+							</div>
+
 						</div>
 						<div class="preview preview3">
-							<!-- <a href="http://rdoverruns.000webhostapp.com/homepage.php" target="_blank">	 -->
-								<div class="project-tile">
-									<img class="img img-fluid" src="img/projects/rdov.JPG">
-									<div class="overlay">
-										<span>
-											<button class="btn btn-info show-btn" value="3" data-toggle="modal" data-target="#project_modal"><i class="fas fa-info-circle"></i> Project Details</button>
-										</span>
-										<span>
-											<a class="btn btn-info git-btn-main text-white" href="https://github.com/rmdiocera/rd-overruns" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-										</span>
-									</div>
-									<div class="caption">
-										<p class="my-2">RD Overruns</p>
-									</div>
+							<div class="project-tile">
+								<img class="img img-fluid" src="img/projects/rdov.JPG">
+								<div class="overlay">
+									<span>
+										<button class="btn btn-info show-btn" value="3" data-toggle="modal"
+											data-target="#project_modal"><i class="fas fa-info-circle"></i> Project
+											Details</button>
+									</span>
+									<span>
+										<a class="btn btn-info git-btn-main text-white"
+											href="https://github.com/rmdiocera/rd-overruns" target="_blank"><i
+												class="fab fa-github"></i> View on GitHub</a>
+									</span>
 								</div>
-							</a>
+								<div class="caption">
+									<p class="my-2">RD Overruns</p>
+								</div>
+							</div>
 						</div>
 						<div class="preview preview4">
-							<!-- <a href="https://makatihs.000webhostapp.com/frontpage.html" target="_blank">	 -->
-								<div class="project-tile">
-									<img class="img img-fluid" src="img/projects/mhs.JPG">
-									<div class="overlay">
-										<span>
-											<button class="btn btn-info show-btn" value="4" data-toggle="modal" data-target="#project_modal"><i class="fas fa-info-circle"></i> Project Details</button>
-										</span>
-										<span>
-											<a class="btn btn-info git-btn-main text-white" href="https://github.com/rmdiocera/mhs-website" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-										</span>
-									</div>
-									<div class="caption">
-										<p class="my-2">Makati High School Website</p>
-									</div>
+							<div class="project-tile">
+								<img class="img img-fluid" src="img/projects/mhs.JPG">
+								<div class="overlay">
+									<span>
+										<button class="btn btn-info show-btn" value="4" data-toggle="modal"
+											data-target="#project_modal"><i class="fas fa-info-circle"></i> Project
+											Details</button>
+									</span>
+									<span>
+										<a class="btn btn-info git-btn-main text-white"
+											href="https://github.com/rmdiocera/mhs-website" target="_blank"><i
+												class="fab fa-github"></i> View on GitHub</a>
+									</span>
 								</div>
-							</a>
+								<div class="caption">
+									<p class="my-2">Makati High School Website</p>
+								</div>
+							</div>
+
 						</div>
 						<div class="preview preview5">
-							<!-- <a href="https://newsweekmockup.000webhostapp.com/" target="_blank">	 -->
-								<div class="project-tile">
-									<img class="img img-fluid" src="img/projects/timeandweather.JPG">
-									<div class="overlay">
-										<span>
-											<button class="btn btn-info show-btn" value="5" data-toggle="modal" data-target="#project_modal"><i class="fas fa-info-circle"></i> Project Details</button>
-										</span>
-										<span>
-											<a class="btn btn-info git-btn-main text-white" href="https://github.com/rmdiocera/js-api-time-and-weather" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-										</span>
-									</div>
-									<div class="caption">
-										<p class="my-2">City Time and Weather</p>
-									</div>
+							<div class="project-tile">
+								<img class="img img-fluid" src="img/projects/timeandweather.JPG">
+								<div class="overlay">
+									<span>
+										<button class="btn btn-info show-btn" value="5" data-toggle="modal"
+											data-target="#project_modal"><i class="fas fa-info-circle"></i> Project
+											Details</button>
+									</span>
+									<span>
+										<a class="btn btn-info git-btn-main text-white"
+											href="https://github.com/rmdiocera/js-api-time-and-weather"
+											target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
+									</span>
 								</div>
-							</a>
+								<div class="caption">
+									<p class="my-2">City Time and Weather</p>
+								</div>
+							</div>
+
 						</div>
 						<div class="preview preview6">
-							<!-- <a href="https://rdtodolist.000webhostapp.com/" target="_blank">	 -->
-								<div class="project-tile">
-									<img class="img img-fluid" src="img/projects/todo.JPG">
-									<div class="overlay">
-										<span>
-											<button class="btn btn-info show-btn" value="6" data-toggle="modal" data-target="#project_modal"><i class="fas fa-info-circle"></i> Project Details</button>
-										</span>
-										<span>
-											<a class="btn btn-info git-btn-main text-white" href="https://github.com/rmdiocera/js-todo-list" target="_blank"><i class="fab fa-github"></i> View on GitHub</a>
-										</span>
-									</div>
-									<div class="caption">
-										<p class="my-2">To-Do List</p>
-									</div>
+							<div class="project-tile">
+								<img class="img img-fluid" src="img/projects/todo.JPG">
+								<div class="overlay">
+									<span>
+										<button class="btn btn-info show-btn" value="6" data-toggle="modal"
+											data-target="#project_modal"><i class="fas fa-info-circle"></i> Project
+											Details</button>
+									</span>
+									<span>
+										<a class="btn btn-info git-btn-main text-white"
+											href="https://github.com/rmdiocera/js-todo-list" target="_blank"><i
+												class="fab fa-github"></i> View on GitHub</a>
+									</span>
 								</div>
-							</a>
+								<div class="caption">
+									<p class="my-2">To-Do List</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
 				<section id="contact-section">
 					<div class="contact-links">
-						<div class="link1">   
-							<a href="https://rmdiocera.000webhostapp.com" id="profile-link"><i class="fas fa-globe contact-icon"></i></a>
+						<div class="link1">
+							<a href="https://rmdiocera.000webhostapp.com" id="profile-link"><i
+									class="fas fa-globe contact-icon"></i></a>
 						</div>
 						<div class="link2">
-							<a href="mailto:rmdiocera@gmail.com" id="profile-link"><i class="fas fa-envelope contact-icon"></i></a>   
+							<a href="mailto:rmdiocera@gmail.com" id="profile-link"><i
+									class="fas fa-envelope contact-icon"></i></a>
 						</div>
-						<div class="link3">   
-							<a href="https://linkedin.com/in/rmdiocera" id="profile-link"><i class="fab fa-linkedin contact-icon"></i></a>
+						<div class="link3">
+							<a href="https://linkedin.com/in/rmdiocera" id="profile-link"><i
+									class="fab fa-linkedin contact-icon"></i></a>
 						</div>
-						<div class="link4">   
-							<a href="https://github.com/rmdiocera" id="profile-link"><i class="fab fa-github contact-icon"></i></a>
+						<div class="link4">
+							<a href="https://github.com/rmdiocera" id="profile-link"><i
+									class="fab fa-github contact-icon"></i></a>
 						</div>
-						<div class="link5">   
-							<a href="https://stackoverflow.com" id="profile-link"><i class="fab fa-stack-overflow contact-icon"></i></a>
+						<div class="link5">
+							<a href="https://stackoverflow.com" id="profile-link"><i
+									class="fab fa-stack-overflow contact-icon"></i></a>
 						</div>
 					</div>
 				</section>
@@ -210,80 +237,105 @@
 		<footer id="footer">
 			<p>Copyright (C) 2018.</p>
 			<p>All rights reserved.</p>
-		</footer>	
+		</footer>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script>
-        document.querySelectorAll('.show-btn').forEach(input => input.addEventListener('click', function(e){
-            showProjectInfo(e);
-            getProjectFeaturesAndLinks(e);
-        }));
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script>
+		document.querySelectorAll('.show-btn').forEach(input => input.addEventListener('click', function (e) {
+			showProjectInfo(e);
+			getProjectFeaturesAndLinks(e);
+		}));
 
-        function getProjectFeaturesAndLinks(e) {
-            let pid = e.target.value;
-            let xhr = new XMLHttpRequest();
+		// Create the XHR object.
+		function createCORSRequest(method, url) {
+			var xhr = new XMLHttpRequest();
+			if ("withCredentials" in xhr) {
+				// XHR for Chrome/Firefox/Opera/Safari.
+				xhr.open(method, url, true);
+			} else if (typeof XDomainRequest != "undefined") {
+				// XDomainRequest for IE.
+				xhr = new XDomainRequest();
+				xhr.open(method, url);
+			} else {
+				// CORS not supported.
+				xhr = null;
+			}
+			return xhr;
+		}
 
-            xhr.open('GET', 'projects.php?details=' + pid), true;
+		function getProjectFeaturesAndLinks(e) {
+			let pid = e.target.value;
+			let url = 'projects.php?details=' + pid;
+			let xhr = createCORSRequest('GET', url);
 
-            xhr.onload = function () {
-                let data = JSON.parse(this.responseText);
+			if (!xhr) {
+				alert('CORS not supported');
+				return;
+			}
 
-                if (document.contains(document.getElementById("project-feature"))) {
-                    $('.project-features').empty();
-                }
+			// xhr.open('GET', 'projects.php?details=' + pid, true);
 
-                for (let i in data) {
-                    $('<li id="project-feature">' + data[i].feature + '</li>').appendTo('.project-features');
-                }
-            }
+			xhr.onload = function () {
+				let data = JSON.parse(this.responseText);
 
-            xhr.send();
+				if (document.contains(document.getElementById("project-feature"))) {
+					$('.project-features').empty();
+				}
 
-        }
+				for (let i in data) {
+					$('<li id="project-feature">' + data[i].feature + '</li>').appendTo('.project-features');
+				}
+			}
+
+			xhr.send();
+
+		}
 
 
-        function showProjectInfo(e) {
-            // e.preventDefault();
+		function showProjectInfo(e) {
+			// e.preventDefault();
 
-            let pid = e.target.value;
-            let xhr = new XMLHttpRequest();
+			let pid = e.target.value;
+			let url = 'projects.php?pid=' + pid;
+			let xhr = createCORSRequest('GET', url);
 
-            xhr.open('GET', 'projects.php?pid=' + pid), true;
+			// xhr.open('GET', 'projects.php?pid=' + pid, true);
 
-            xhr.onload = function () {
-                let data = JSON.parse(this.responseText);
-                let img_names = '';
-                $('.modal-title').text(data[0].project_name);
-                $('.site-btn').attr('href', data[0].website_link);
-                $('.git-btn').attr('href', data[0].github_link);
+			xhr.onload = function () {
+				let data = JSON.parse(this.responseText);
+				let img_names = '';
+				$('.modal-title').text(data[0].project_name);
+				$('.site-btn').attr('href', data[0].website_link);
+				$('.git-btn').attr('href', data[0].github_link);
 
-                if (document.contains(document.getElementById("carousel-img")) && document.contains(document.getElementById("carousel-ind"))) {
-                    $('.carousel-inner').empty();
-                    $('.carousel-indicators').empty();
-                }
+				if (document.contains(document.getElementById("carousel-img")) && document.contains(document.getElementById("carousel-ind"))) {
+					$('.carousel-inner').empty();
+					$('.carousel-indicators').empty();
+				}
 
-                for (let i in data) {
-                    $('<div id="carousel-img" class="carousel-item"><img class="d-block w-100" src="img/projects/' + data[i].image_name + '" alt="Los Angeles"></div>').appendTo('.carousel-inner');
-                    $('<li id="carousel-ind" data-target="#carouselExampleIndicators" data-slide-to="' + i + '"></li>').appendTo('.carousel-indicators');
-                }
+				for (let i in data) {
+					$('<div id="carousel-img" class="carousel-item"><img class="d-block w-100" src="img/projects/' + data[i].image_name + '" alt="Los Angeles"></div>').appendTo('.carousel-inner');
+					$('<li id="carousel-ind" data-target="#carouselExampleIndicators" data-slide-to="' + i + '"></li>').appendTo('.carousel-indicators');
+				}
 
-                $('.carousel-item').first().addClass('active');
-                $('.carousel-indicators > li').first().addClass('active');
-                // $('#carouselExampleIndicators').carousel();
-                // console.log(img_names)
-            }
+				$('.carousel-item').first().addClass('active');
+				$('.carousel-indicators > li').first().addClass('active');
+				// $('#carouselExampleIndicators').carousel();
+				// console.log(img_names)
+			}
 
-            xhr.send();
-        }
-    </script>
+			xhr.send();
+		}
+	</script>
 </body>
+
 </html>
