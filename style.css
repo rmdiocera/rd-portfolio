@@ -95,8 +95,12 @@ body {
     transform: translate(-50%, -50%)
 }
 
-#welcome-section h1, #welcome-section h3, #projects, #contact-section, footer {
+#welcome-section h1, #welcome-section h3, #projects, .modal-title, #contact-section, footer {
 	font-family: 'Montserrat', serif;
+}
+
+.font-raleway {
+	font-family: 'Raleway', sans-serif;
 }
 
 /* Modal Controls */
